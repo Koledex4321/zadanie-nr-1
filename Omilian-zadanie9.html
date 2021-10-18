@@ -10,7 +10,7 @@ var d2_omi=prompt("dzien drugi=","");
 var g2_omi=prompt("godzina druga=","");
   
 var roznica;
-roznica = ((d2_omi+g2_omi)*24*60*60) - ((d1_omi+g1_omi)*24*60*60);
+roznica = ((d2_omi)*24*60*60) - ((d1_omi)*24*60*60) + (((g1_omi)*24*60)-((g2_omi)&=*24*60))
 document.write("miedzy dniem i godzina "+d1_omi+" + "+g1_omi+" a dniem  "+d2_omi+" + "+g2_omi+" jest tyle sekund "+roznica+"<br>");
 </script>
   </head>
